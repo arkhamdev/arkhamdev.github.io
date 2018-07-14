@@ -1,17 +1,14 @@
 @import 'node_modules/skeleton-scss/scss/skeleton.scss';
 
 body {
+  font-size: 16px;
+  margin-top: 60px;
+  background-color: #fafaf1;
   font-family: 'Karla', Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  margin-top: 50px;
-}
-
-p {
-  font-size: 1.2em;
 }
 
 a {
-  color: #1864ab;
+  color: #69626b;
   text-decoration: none;
 }
 
@@ -19,5 +16,9 @@ ul {
   display: inline-block;
   list-style: none;
   margin-right: 30px;
-  margin-top: 40px;
+  margin-top: 30px;
+}
+
+.email {
+  background-color: #fae6d8;
 }
